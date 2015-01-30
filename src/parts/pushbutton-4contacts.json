@@ -1,0 +1,133 @@
+{
+  "meta": 
+  {
+    "number": "",
+    "description": "",
+    "datasheet_url": "",
+    "digikey_number": "",
+    "octopart_number": "",
+    "svg_width": 50,
+    "svg_height": 12
+  },
+  "pins":
+  {
+  "1-T1":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.25, 2.25]
+      }
+    },
+  "2-T1":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.25, 2.25]
+      }
+    },
+  "3-T2":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [-3.25, -2.25]
+      }
+    },
+  "4-T2":
+    {
+      "layout": 
+      {
+	"pad": "pin", 
+	"location": [3.25, -2.25]
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "outline":
+      {
+        "top":
+	[
+	  {
+	    "type": "rect",
+            "height": 7,
+            "width": 7,
+	    "offset": [0, 0],
+            "radii": {"tl": 0.15, "tr": 0.15, "bl": 0.15, "br": 0.15}
+	  }
+	]        
+      },
+      "refdef":
+      {
+        "top":
+        {
+          "designator": "J*",
+          "location": [0, 4]
+        }
+      }
+    },
+    "assembly":
+    {
+      "outline":
+      {
+        "top":
+	[
+	  {
+	    "type": "rect",
+            "height": 6,
+            "width": 6,
+	    "offset": [0, 0]
+	  }
+	]        
+      },
+      "refdef":
+      {
+        "top":
+        {
+          "designator": "J*",
+          "location": [0, 0]
+        }
+      }
+    }
+  },
+  "pads":
+  {
+    "pin":
+    {
+      "origin": [0, 0],
+      "shapes":
+      {
+        "top":
+        [
+          {
+            "type": "circle",
+            "outline": 0,
+            "diameter": 1.6,
+            "offset": [0, 0] 
+          }
+        ],
+        "bottom":
+        [
+          {
+            "type": "circle",
+            "outline": 0,
+            "diameter": 1.6,
+            "offset": [0, 0] 
+          }
+        ]
+      },
+      "drills":
+      [
+        {
+          "diameter": 1,
+          "offset": [0, 0],
+          "show_diameter": "yes"
+        }
+      ]
+    }
+  }
+}

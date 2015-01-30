@@ -1,0 +1,200 @@
+{
+"meta": 
+  {
+    "number": "",
+    "description": "",
+    "datasheet_url": "",
+    "digikey_number": "",
+    "octopart_number": "",
+    "svg_width": 4,
+    "svg_height": 2.2
+  },
+"pins":
+  {
+  "1":
+    {	
+      "layout": 
+      {
+        "pad": "th-sq", 
+        "location": [-6.35, 0],
+        "rotation": 0
+      }
+    },
+  "2":
+    {	
+      "layout": 
+      {
+        "pad": "th", 
+        "location": [-3.81, 0],
+        "rotation": 0
+      }
+    },
+  "3":
+    {	
+      "layout": 
+      {
+        "pad": "th", 
+        "location": [-1.27, 0],
+        "rotation": 0
+      }
+    },
+  "4":
+    {	
+      "layout": 
+      {
+        "pad": "th", 
+        "location": [1.27, 0],
+        "rotation": 0
+      }
+    },
+  "5":
+    {	
+      "layout": 
+      {
+        "pad": "th", 
+        "location": [3.81, 0],
+        "rotation": 0
+      }
+    },
+  "6":
+    {	
+      "layout": 
+      {
+        "pad": "th", 
+        "location": [6.35, 0],
+        "rotation": 0
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "outline":
+      {
+        "top":
+        [
+	  {
+            "type": "rect",
+	    "width": 0.3,
+	    "height": 1,
+	    "location": [0, 0],
+	    "style": "fill"
+          }
+        ]
+      },
+      "refdef":
+      {
+        "top":
+        {
+          "designator": "?*",
+          "location": [0, 1.5]
+        }
+      }
+    },
+    "assembly":
+    {
+      "outline":
+      {
+        "top":
+        [
+          {
+	    "type": "rect",
+	    "width": 15.24,
+	    "height": 1.4,
+            "offset": [0, 0]
+          }
+        ]
+      },
+      "refdef":
+      {
+        "top":
+        {
+          "designator": "?*",
+          "location": [0,0]
+        }
+      }
+    }
+  },
+  "pads":
+  {
+    "th":
+    {
+      "origin": [0, 0],
+      "shapes":
+      {
+        "top":
+        [
+          {
+            "type": "circle",
+            "outline": 0,
+            "diameter": 1.9,
+            "offset": [0, 0] 
+          }
+        ],
+        "bottom":
+        [
+          {
+            "type": "circle",
+            "outline": 0,
+            "diameter": 1.9,
+            "offset": [0, 0] 
+          }
+        ]
+      },
+      "drills":
+      [
+        {
+          "diameter": 1,
+          "offset": [0, 0],
+          "show_diameter": "yes"
+        }
+      ]
+    },
+    "th-sq":
+    {
+      "origin": [0, 0],
+      "shapes":
+      {
+        "top":
+        [
+          {
+            "type": "rect",
+            "width": 1.9,
+            "height": 1.9,
+            "offset": [0, 0],
+            "radii": {
+              "tl": 0.3,
+              "bl": 0.3,
+              "tr": 0.3,
+              "br": 0.3
+            }
+          }
+        ],
+        "bottom":
+        [
+          {
+            "type": "rect",
+            "width": 1.9,
+            "height": 1.9,
+            "offset": [0, 0],
+            "radii": {
+              "tl": 0.3,
+              "bl": 0.3,
+              "tr": 0.3,
+              "br": 0.3
+            }
+          }
+        ]
+      },
+      "drills":
+      [
+        {
+          "diameter": 1,
+          "offset": [0, 0],
+          "show_diameter": "yes"
+        }
+      ]
+    }
+  }
+}

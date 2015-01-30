@@ -1,0 +1,137 @@
+{
+"meta": 
+  {
+    "number": "",
+    "description": "",
+    "datasheet_url": "",
+    "digikey_number": "",
+    "octopart_number": "",
+    "svg_width": 4,
+    "svg_height": 2.2
+  },
+"pins":
+  {
+  "1":
+    {	
+      "layout": 
+      {
+        "pad": "th", 
+        "location": [-2.44, 0],
+        "rotation": 0
+      }
+    },
+  "2":
+    {	
+      "layout": 
+      {
+        "pad": "th", 
+        "location": [2.44, 0],
+        "rotation": 0
+      }
+    }
+  },
+  "layout":
+  {
+    "silkscreen":
+    {
+      "outline":
+      {
+        "top":
+        [
+	  {
+            "type": "rect",
+	    "width": 11.7,
+	    "height": 5.3,
+	    "location": [0, 0],
+	    "style": "outline",
+            "radii": {"tl": 2, "tr": 2, "bl": 2, "br": 2}
+          }
+        ]
+      },
+      "refdef":
+      {
+        "top":
+        {
+          "designator": "?*",
+          "location": [0, 1.5]
+        }
+      }
+    },
+    "assembly":
+    {
+      "outline":
+      {
+        "top":
+        [
+          {
+	    "type": "rect",
+	    "width": 11.2,
+	    "height": 4.8,
+            "offset": [0, 0]
+          }
+        ]
+      },
+      "refdef":
+      {
+        "top":
+        {
+          "designator": "?*",
+          "location": [0,0]
+        }
+      }
+    }
+  },
+  "pads":
+  {
+    "th":
+    {
+      "origin": [0, 0],
+      "shapes":
+      {
+        "top":
+        [
+          {
+            "type": "circle",
+            "outline": 0,
+            "diameter": 1.9,
+            "offset": [0, 0] 
+          }
+        ],
+        "bottom":
+        [
+          {
+            "type": "circle",
+            "outline": 0,
+            "diameter": 1.9,
+            "offset": [0, 0] 
+          }
+        ]
+      },
+      "drills":
+      [
+        {
+          "diameter": 1,
+          "offset": [0, 0],
+          "show_diameter": "yes"
+        }
+      ]
+    },
+    "smt":
+    {
+      "origin": [0, 0],
+      "shapes":
+      {
+        "top":
+        [
+          {
+            "type": "rect",
+            "outline": 0,
+            "width": 1.524,
+            "height": 1.143,
+            "offset": [0, 0]
+          }
+        ]
+      }
+    }
+  }
+}
