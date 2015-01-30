@@ -1,0 +1,12 @@
+The following files are included in this archive:
+cuttlefish_rev_B_outline.ger
+cuttlefish_rev_B_documentation.ger
+cuttlefish_rev_B_top_copper.ger
+cuttlefish_rev_B_top_soldermask.ger
+cuttlefish_rev_B_top_silkscreen.ger
+cuttlefish_rev_B_bottom_copper.ger
+cuttlefish_rev_B_bottom_soldermask.ger
+cuttlefish_rev_B_bottom_silkscreen.ger
+cuttlefish_rev_B_drills.txt
+
+Please refer to the documentation Gerber file for manufacturing instructions.

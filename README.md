@@ -1,5 +1,7 @@
 # The Cuttlefish
 
+![Cuttlefish layout](/images/cuttlefish.png)
+
 The Cuttlefish is a PCB version of the low cost Arduino-compatible [Shrimp](http://shrimping.it/blog/shrimp/), that is designed for use in both breadboard prototyping and more permanent projects, including header pins for the former and mounting holes for the latter.
 
 The board is used by Embecosm in outreach initiatives and workshops with people of all different age groups, providing a gentle introduction to PCBs and soldering, for those who have progressed from building Shrimp projects on breadboard.
@@ -10,7 +12,8 @@ Embecosm commissioned [Boldport](http://www.boldport.com/) to layout a board des
 
 ## Repository contents
 
-* Cuttlefish PCBmodeE "sources" (JSON layout plus SVG fonts)
+* PCBmodeE "sources" (JSON layout plus SVG fonts)
+* SVG build and Gerber manufacturing files
 
 ## Copyright and licence
 
